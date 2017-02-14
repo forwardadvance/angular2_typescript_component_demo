@@ -9,6 +9,6 @@ import {Component} from '@angular/core';
 export class AppComponent {
   private name: string
   constructor() {
-    this.name = 'World'
+    this.name = 'World!!!!!!'
   }
 }

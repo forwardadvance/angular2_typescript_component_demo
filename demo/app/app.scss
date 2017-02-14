@@ -1,3 +1,37 @@
+$red: #f00;
+
+$font-size: 12px;
+$font-scale: 1.5;
+$larger: $font-size * $font-scale * $font-scale;
+$large: $font-size *  $font-scale;
+$normal: $font-size;
+$small: $font-size / $font-scale;
+
 body {
-  font: sans-serif;
+  font: serif;
+  color: lighten($red,10);
+  font-size: $normal;
+}
+
+h1 {
+  font-size: $larger;
+}
+
+h1 {
+  font-size: $large;
+}
+
+.small {
+  font-size:$small;
+}
+
+.cat {
+  border:1px solid red;
+  h1 {
+    color: blue;
+    background: green;
+  }
+  p {
+
+  }
 }
