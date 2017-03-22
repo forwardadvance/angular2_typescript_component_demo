@@ -7,5 +7,5 @@ import {Component} from '@angular/core';
     `
 })
 export class AppComponent {
-  private name: string  = 'World'
+  private name: string  = 'World!!!'
 }

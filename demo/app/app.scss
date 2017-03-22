@@ -1,5 +1,15 @@
-$red: #f00;
+$red: #f44;
+$baseFont: 13px;
+$fontScale: 1.5;
 
 app {
   color:lighten($red, 30%);
+
+  h2 {
+    font-size:$baseFont * $fontScale
+  }
+
+  h2 {
+    font-size:$baseFont * $fontScale * $fontScale
+  }
 }
