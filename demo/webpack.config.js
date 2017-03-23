@@ -14,7 +14,7 @@ module.exports = [
       filename: "./app.build/[name].build.js",
     },
     resolve: {
-      extensions: ['', '.js', '.ts']
+      extensions: ['.js', '.ts']
     },
     resolveLoader: {
       root: path.join(__dirname, 'node_modules')
